@@ -3,7 +3,7 @@ public class AccountAutomations {
         If (a.Description != null) return a;
         Else {
             a.Description = 'Default description';
-            return a;
+            return a;  // Amit is Awesome!
         }
     }
     public static Account setDefaultBillingAddress(Account a){
